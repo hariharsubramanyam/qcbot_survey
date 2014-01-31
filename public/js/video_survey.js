@@ -13,7 +13,7 @@ function SurveyManager(survey){
   this.surveyResult = new SurveyResult();
 
 
-  // The list of SurveyVideos	
+  // The list of SurveyVideos   
   this.surveyVideos = [];
   for(var i = 0; i < survey["surveyVideos"].length; i++){
     this.surveyVideos.push(new SurveyVideo(survey["surveyVideos"][i]));
